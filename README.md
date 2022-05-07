@@ -27,7 +27,6 @@ For images process
 
 ## Acknoledgment
 TopOpt Group
-top99, top88, [top99neo]
-(https://www.topopt.mek.dtu.dk/Apps-and-software/New-99-line-topology-optimization-code-written-in-MATLAB)
+top99, top88, [top99neo](https://www.topopt.mek.dtu.dk/Apps-and-software/New-99-line-topology-optimization-code-written-in-MATLAB)
 
 MMA Alg
