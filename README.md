@@ -1,2 +1,33 @@
 # Topology-Optimization-in-Julia
 Julia Codes for Structral Topology Optimization Design
+
+
+## Codes
+`top_oc`
+
+`top_mma`
+## Results
+![TO design evolution with MMA](./top_mma/res/des_hist.gif)
+
+## Related Julia Pkgs
+Start RPL, and
+`]` `add ...`
+
+For computing
+* LinearAlgebra
+* SparseArrays
+* Statistics : mean
+
+For images process
+* ImageFiltering: imfilter
+
+## TODO List
+*[] AD
+*[] NLopt
+
+## Acknoledgment
+TopOpt Group
+top99, top88, top99neo
+[https://www.topopt.mek.dtu.dk/Apps-and-software/New-99-line-topology-optimization-code-written-in-MATLAB]
+
+MMA Alg
