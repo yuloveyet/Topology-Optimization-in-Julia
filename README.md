@@ -32,10 +32,13 @@ For optimization
 - NLopt
 
 ## TODO List
+- [x] top99neo.m wrritten in Julia 
+- [x] MMA written in Julia
+- [x] top_mma in Julia
 - [ ] Sensivity Analasys using Automatic Differentiation
 - [ ] Optimization solved with [NLopt](https://github.com/stevengj/nlopt)
 
-## Acknoledgment
+## Acknowledgements
 TopOpt Group
 [top99.m](https://www.topopt.mek.dtu.dk/Apps-and-software/A-99-line-topology-optimization-code-written-in-MATLAB), [top88.m](https://www.topopt.mek.dtu.dk/Apps-and-software/Efficient-topology-optimization-in-MATLAB), [top99neo.m](https://www.topopt.mek.dtu.dk/Apps-and-software/New-99-line-topology-optimization-code-written-in-MATLAB)
 
