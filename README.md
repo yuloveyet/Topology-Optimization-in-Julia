@@ -29,4 +29,4 @@ For images process
 TopOpt Group
 top99, top88, [top99neo](https://www.topopt.mek.dtu.dk/Apps-and-software/New-99-line-topology-optimization-code-written-in-MATLAB)
 
-MMA Alg
+Thanks to Prof. [Krister Svanberg](https://people.kth.se/~krille/) with his [Matlab code](http://www.smoptit.se/) for MMA and GCMMA freely available.
