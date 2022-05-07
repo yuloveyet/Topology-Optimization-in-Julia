@@ -37,6 +37,6 @@ For optimization
 
 ## Acknoledgment
 TopOpt Group
-top99, top88, [top99neo](https://www.topopt.mek.dtu.dk/Apps-and-software/New-99-line-topology-optimization-code-written-in-MATLAB)
+[top99.m](https://www.topopt.mek.dtu.dk/Apps-and-software/A-99-line-topology-optimization-code-written-in-MATLAB), [top88.m](https://www.topopt.mek.dtu.dk/Apps-and-software/Efficient-topology-optimization-in-MATLAB), [top99neo.m](https://www.topopt.mek.dtu.dk/Apps-and-software/New-99-line-topology-optimization-code-written-in-MATLAB)
 
 Thanks to Prof. [Krister Svanberg](https://people.kth.se/~krille/) with his [Matlab code](http://www.smoptit.se/) for MMA and GCMMA freely available.
