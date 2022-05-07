@@ -23,11 +23,11 @@ For images process
 
 ## TODO List
 - [ ] Sensivity Analasys using Automatic Differentiation
-- [ ] Optimization solved with NLopt[https://github.com/stevengj/nlopt]
+- [ ] Optimization solved with [NLopt](https://github.com/stevengj/nlopt)
 
 ## Acknoledgment
 TopOpt Group
-top99, top88, top99neo
-[https://www.topopt.mek.dtu.dk/Apps-and-software/New-99-line-topology-optimization-code-written-in-MATLAB]
+top99, top88, [top99neo]
+(https://www.topopt.mek.dtu.dk/Apps-and-software/New-99-line-topology-optimization-code-written-in-MATLAB)
 
 MMA Alg
