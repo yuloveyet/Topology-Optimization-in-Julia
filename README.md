@@ -13,13 +13,23 @@ Julia Codes for Structral Topology Optimization Design
 Start RPL, and
 `]` `add ...`
 
-For computing
+For scientific computing
 - LinearAlgebra
 - SparseArrays
 - Statistics : mean
 
 For images process
 - ImageFiltering: imfilter
+
+For modelling and FEM
+- Gmsh
+- Gridap
+
+For AD
+- Zygote
+
+For optimization
+- NLopt
 
 ## TODO List
 - [ ] Sensivity Analasys using Automatic Differentiation
