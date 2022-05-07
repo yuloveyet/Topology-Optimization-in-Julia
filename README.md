@@ -14,16 +14,16 @@ Start RPL, and
 `]` `add ...`
 
 For computing
-* LinearAlgebra
-* SparseArrays
-* Statistics : mean
+- LinearAlgebra
+- SparseArrays
+- Statistics : mean
 
 For images process
-* ImageFiltering: imfilter
+- ImageFiltering: imfilter
 
 ## TODO List
-*[] AD
-*[] NLopt
+- [ ] Sensivity Analasys using Automatic Differentiation
+- [ ] Optimization solved with NLopt[https://github.com/stevengj/nlopt]
 
 ## Acknoledgment
 TopOpt Group
