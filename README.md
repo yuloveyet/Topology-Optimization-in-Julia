@@ -31,6 +31,9 @@ For AD
 For optimization
 - NLopt
 
+For visulization
+- Plots
+
 ## TODO List
 - [x] top99neo.m rewrritten in Julia 
 - [x] MMA rewritten in Julia
