@@ -24,6 +24,8 @@ xPhys, opt_hist, vf_hist, anim = Optimization(setup, mat, load, filter, ini, dis
 gif(anim, "./res/des_hist.gif", fps=20) # design result visulization
 ```
 
+⚠️ Disclaimer: The authors reserves all rights but do not guaranty that the code is free from errors. Furthermore, we shall not be liable in any event.
+
 ## Results
 
 A benchmark MBB example is presented. TO design result evolution is shown as below.
