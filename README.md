@@ -33,9 +33,7 @@ A benchmark MBB example is presented. TO design result evolution is shown as bel
 <!-- ![TO design evolution with MMA](./top_mma/res/des_hist.gif) -->
 
 <div align=center>
-
 <img src=./top_mma/res/des_hist.gif width="500">
-
 👍 💯
 </div>
 
@@ -45,33 +43,33 @@ Run Julia REPL, enter `]` to bring up Julia's [package manager](https://docs.jul
 and add the listed packages:
 
 > julia> ]
-> (@v1.7) pkg> add #pkgs#
+> (@v1.7) pkg> add #pkg_name#
 
 - Scientific computing
   - LinearAlgebra
   - SparseArrays
   - Statistics : mean
-- Images process
+- Image process
   - ImageFiltering: imfilter
 - Modelling
-  - Gmsh
+  - [Gmsh](https://onlinelibrary.wiley.com/doi/10.1002/nme.2579)
 - FEM
   - [Gridap](https://joss.theoj.org/papers/10.21105/joss.02520)
 - AD
   - [ForwardDiff](https://arxiv.org/abs/1607.07892)
   - [Zygote](https://arxiv.org/abs/1810.07951)
 - Optimization
-  - NLopt
+  - [NLopt](https://github.com/stevengj/nlopt)
 - Visualization
   - Plots
 
 ## TODO List
 
-- [x] top99neo.m rewritten in Julia
-- [x] MMA rewritten in Julia
-- [x] top_mma in Julia
-- [ ] Sensitivity Analysis using Automatic Differentiation
-- [ ] Optimization solved with [NLopt](https://github.com/stevengj/nlopt)
+- [x] [`top99neo.jl`](./top_oc/top99neo.jl)$\text{top99neo.m}$ rewritten in Julia
+- [x] [`MMA.jl`](./top_mma/MMA.jl)MMA algorithm ($\text{mmasub.m + subsolve.m}$) rewritten in Julia
+- [x] [`top99neo_mma`](./top_mma/top99neo_mma.jl)$\text{top99neo +}$ MMA in Julia
+- [ ] `top99neo_AD`Sensitivity Analysis using Automatic Differentiation
+- [ ] `top99neo_NLopt`Optimization solved with NLopt
 
 ## Acknowledgements
 
@@ -98,10 +96,7 @@ Hobby 🎧 🃏 🎮 🏀 🏊 🏃 🚴‍♂️
 
 Food 🍦 🦞 🍣 🌽 🍌
 
-
-
-## References
-
+**References**
 [^1]:Sigmund, O. (2001). A 99 line topology optimization code written in Matlab. Structural and multidisciplinary optimization, 21(2), 120-127.
 [^2]: Ferrari, F., & Sigmund, O. (2020). A new generation 99 line Matlab code for compliance topology optimization and its extension to 3D. Structural and Multidisciplinary Optimization, 62(4), 2211-2228.
 [^3]:Andreassen, E., Clausen, A., Schevenels, M., Lazarov, B. S., & Sigmund, O. (2011). Efficient topology optimization in MATLAB using 88 lines of code. Structural and Multidisciplinary Optimization, 43(1), 1-16.
