@@ -28,7 +28,7 @@ gif(anim, "./res/des_hist.gif", fps=20) # design result visulization
 
 ## Results
 
-A benchmark MBB example is presented. TO design result evolution is shown as below.
+A benchmark MBB example is presented. TO design results are saved in `./res/` folder and a evolution history is shown as below.
 
 <!-- ![TO design evolution with MMA](./top_mma/res/des_hist.gif) -->
 
@@ -70,11 +70,11 @@ and add the listed packages:
   top99neo.m rewritten in Julia
 - [x] [`MMA.jl`](./top_mma/MMA.jl)
   MMA algorithm (mmasub.m + subsolve.m) rewritten in Julia
-- [x] [`top99neo_mma`](./top_mma/top99neo_mma.jl)
+- [x] [`top99neo_mma.jl`](./top_mma/top99neo_mma.jl)
   top99neo + MMA
-- [ ] `top99neo_AD`
+- [ ] `top99neo_AD.jl`
   Sensitivity Analysis using Automatic Differentiation
-- [ ] `top99neo_NLopt`
+- [ ] `top99neo_NLopt.jl`
   Optimization solved with NLopt
 
 ## Acknowledgements
@@ -96,9 +96,9 @@ Matlab codes for topology optimization
 
 📧 liyu_npu@outlook.com
 
-| Name   |    Info.        |      Hobby        |     Food      |
-| ------ |:---------------:|:-----------------:|:-------------:|
-| Yu Li  | 🇨🇳 🎓 1️⃣9️⃣9️⃣0️⃣ ♑ | 🎧 🃏 🎮 🏀 🏊 🏃 🚴‍♂️ | 🍦 🦞 🍣 🌽 🍌 |
+| Name  |   Info.    |     Hobby     |   Food    |
+| ----- | :--------: | :-----------: | :-------: |
+| Yu Li | 🇨🇳 🎓 1️⃣9️⃣9️⃣0️⃣ ♑ | 🎧 🃏 🎮 🏀 🏊 🏃 🚴‍♂️ | 🍦 🦞 🍣 🌽 🍌 |
 
 **References**
 [^1]:Sigmund, O. (2001). A 99 line topology optimization code written in Matlab. Structural and multidisciplinary optimization, 21(2), 120-127.
