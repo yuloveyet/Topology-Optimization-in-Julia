@@ -101,7 +101,7 @@ Matlab codes for topology optimization
 | Yu Li | 🇨🇳 🎓 1️⃣9️⃣9️⃣0️⃣ ♑ | 🎧 🃏 🎮 🏀 🏊 🏃 🚴‍♂️ | 🍦 🦞 🍣 🌽 🍌 |
 
 **References**
-[^1]:Sigmund, O. (2001). A 99 line topology optimization code written in Matlab. Structural and multidisciplinary optimization, 21(2), 120-127.
-[^2]: Ferrari, F., & Sigmund, O. (2020). A new generation 99 line Matlab code for compliance topology optimization and its extension to 3D. Structural and Multidisciplinary Optimization, 62(4), 2211-2228.
+[^1]: Ferrari, F., & Sigmund, O. (2020). A new generation 99 line Matlab code for compliance topology optimization and its extension to 3D. Structural and Multidisciplinary Optimization, 62(4), 2211-2228.
+[^2]:Sigmund, O. (2001). A 99 line topology optimization code written in Matlab. Structural and multidisciplinary optimization, 21(2), 120-127.
 [^3]:Andreassen, E., Clausen, A., Schevenels, M., Lazarov, B. S., & Sigmund, O. (2011). Efficient topology optimization in MATLAB using 88 lines of code. Structural and Multidisciplinary Optimization, 43(1), 1-16.
 [^4]: Svanberg, K. (2002). A class of globally convergent optimization methods based on conservative convex separable approximations. SIAM journal on optimization, 12(2), 555-573.
