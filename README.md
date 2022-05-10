@@ -71,13 +71,13 @@ and add the listed packages:
 - [x] [`MMA.jl`](./top_mma/MMA.jl)
   MMA algorithm (mmasub.m + subsolve.m) rewritten in Julia
 - [x] [`top99neo_mma.jl`](./top_mma/top99neo_mma.jl)
-  2D code (top99neo + MMA) rewritten in Julia
+  2D code (top99neo + MMA) written in Julia
 - [ ] `top99neo_AD.jl`
   Sensitivity Analysis using Automatic Differentiation
 - [ ] `top99neo_NLopt.jl`
   Optimization solved with NLopt
 - [ ] `top3D.jl`
-  3D code (top3D125 + MMA) rewritten in Julia
+  3D code (top3D125 + MMA) written in Julia
 
 ## Acknowledgements
 
