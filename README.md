@@ -66,15 +66,15 @@ and add the listed packages:
 
 ## TODOs
 
-- [x] [`top99neo.jl`](./top_oc/top99neo.jl):
+- [x] [`top99neo.jl`](./top_oc/top99neo.jl)
   top99neo.m rewritten in Julia
-- [x] [`MMA.jl`](./top_mma/MMA.jl):
+- [x] [`MMA.jl`](./top_mma/MMA.jl)
   MMA algorithm (mmasub.m + subsolve.m) rewritten in Julia
-- [x] [`top99neo_mma.jl`](./top_mma/top99neo_mma.jl):
+- [x] [`top99neo_mma.jl`](./top_mma/top99neo_mma.jl)
   top99neo + MMA
-- [ ] `top99neo_AD.jl`:
+- [ ] `top99neo_AD.jl`
   Sensitivity Analysis using Automatic Differentiation
-- [ ] `top99neo_NLopt.jl`:
+- [ ] `top99neo_NLopt.jl`
   Optimization solved with NLopt
 
 ## Acknowledgements
@@ -99,6 +99,17 @@ Matlab codes for topology optimization
 | Name  |   Info.    |     Hobby     |   Food    |
 | ----- | :--------: | :-----------: | :-------: |
 | Yu Li | 🇨🇳 🎓 1️⃣9️⃣9️⃣0️⃣ ♑ | 🎧 🃏 🎮 🏀 🏊 🏃 🚴‍♂️ | 🍦 🦞 🍣 🌽 🍌 |
+
+```bibtex
+@misc{Yu2022,
+  author = {Yu Li},
+  title = {Topology Optimization in Julia},
+  year = {2022},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/yuloveyet/Topology-Optimization-in-Julia}},
+  }
+```
 
 **References**
 [^1]: Ferrari, F., & Sigmund, O. (2020). A new generation 99 line Matlab code for compliance topology optimization and its extension to 3D. Structural and Multidisciplinary Optimization, 62(4), 2211-2228.
