@@ -1,10 +1,14 @@
+<script
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+  type="text/javascript">
+</script>
 # Topology-Optimization-in-Julia
 
 Julia Codes for Structural Topology Optimization Design
 
 ## Codes
 
-A personal [Julia](https://epubs.siam.org/doi/10.1137/141000671) code is given mainly based on a compact and efficient Matlab implementation of compliance topology optimization (TO) for 2D continua[^1], which is a v3.0 version of the celebrated $\text{top99}$ Matlab code developed by Sigmund[^2] and $\text{top88}$ by its heir[^3].
+A personal [Julia](https://epubs.siam.org/doi/10.1137/141000671) code is given mainly based on a compact and efficient Matlab implementation of compliance topology optimization (TO) for 2D continua[^1], which is a v3.0 version of the celebrated $$\text{top99}$$ Matlab code developed by Sigmund[^2] and $\text{top88}$$ by its heir[^3].
 
 Assemble just one half of the sysmetric stiffness matrix, thus substantial speedups are acheived.
 
@@ -101,3 +105,4 @@ Food 🍦 🦞 🍣 🌽 🍌
 [^2]: Ferrari, F., & Sigmund, O. (2020). A new generation 99 line Matlab code for compliance topology optimization and its extension to 3D. Structural and Multidisciplinary Optimization, 62(4), 2211-2228.
 [^3]:Andreassen, E., Clausen, A., Schevenels, M., Lazarov, B. S., & Sigmund, O. (2011). Efficient topology optimization in MATLAB using 88 lines of code. Structural and Multidisciplinary Optimization, 43(1), 1-16.
 [^4]: Svanberg, K. (2002). A class of globally convergent optimization methods based on conservative convex separable approximations. SIAM journal on optimization, 12(2), 555-573.
+
