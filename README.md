@@ -43,6 +43,7 @@ Run [the Julia REPL](https://docs.julialang.org/en/v1/stdlib/REPL/), enter `]` t
 and add the listed packages:
 
 > julia> ]
+>  
 > (@v1.7) pkg> add #pkg_name#
 
 - Scientific computing
