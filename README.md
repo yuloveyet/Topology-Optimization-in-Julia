@@ -66,15 +66,15 @@ and add the listed packages:
 
 ## TODOs
 
-- [x] [`top99neo.jl`](./top_oc/top99neo.jl)
+- [x] [`top99neo.jl`](./top_oc/top99neo.jl):
   top99neo.m rewritten in Julia
-- [x] [`MMA.jl`](./top_mma/MMA.jl)
+- [x] [`MMA.jl`](./top_mma/MMA.jl):
   MMA algorithm (mmasub.m + subsolve.m) rewritten in Julia
-- [x] [`top99neo_mma.jl`](./top_mma/top99neo_mma.jl)
+- [x] [`top99neo_mma.jl`](./top_mma/top99neo_mma.jl):
   top99neo + MMA
-- [ ] `top99neo_AD.jl`
+- [ ] `top99neo_AD.jl`:
   Sensitivity Analysis using Automatic Differentiation
-- [ ] `top99neo_NLopt.jl`
+- [ ] `top99neo_NLopt.jl`:
   Optimization solved with NLopt
 
 ## Acknowledgements
