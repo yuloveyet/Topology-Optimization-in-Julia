@@ -24,8 +24,6 @@ xPhys, opt_hist, vf_hist, anim = Optimization(setup, mat, load, filter, ini, dis
 gif(anim, "./res/des_hist.gif", fps=20) # design result visulization
 ```
 
-⚠️ Disclaimer: The authors reserves all rights but do not guaranty that the code is free from errors. Furthermore, we shall not be liable in any event.
-
 ## Results
 
 A benchmark MBB example is presented. TO design results are saved in `./res/` folder and a evolution history is shown as below.
@@ -78,6 +76,8 @@ and add the listed packages:
   Optimization solved with NLopt
 - [ ] `top3D.jl`
   3D code (top3D125 + MMA) written in Julia
+- [ ] `top_flux.jl`
+  Combine TO with machine learning through [Flux](https://arxiv.org/abs/1811.01457)
 
 ## Acknowledgements
 
@@ -96,7 +96,9 @@ Matlab codes for topology optimization
 
 ## Author ©️
 
-📧 liyu_npu@outlook.com
+📧 Please contact to liyu_npu@outlook.com
+
+⚠️ Disclaimer: The author reserves all rights but does not guarantee that the code is free from errors. Furthermore, we shall not be liable in any event.
 
 | Name  |   Info.    |     Hobby     |   Food    |
 | ----- | :--------: | :-----------: | :-------: |
